@@ -27,7 +27,7 @@ namespace InheritAndPolymorphism.Entities
             sb.Append(Name);
             sb.Append(" $ ");
             sb.Append(TotalPrice().ToString("F2", CultureInfo.InvariantCulture));
-            sb.Append(" (Customs fee:  $ ");
+            sb.Append(" (Customs fee: $ ");
             sb.Append(CustomsFee.ToString("F2", CultureInfo.InvariantCulture));
             sb.Append(")");
             return sb.ToString();
