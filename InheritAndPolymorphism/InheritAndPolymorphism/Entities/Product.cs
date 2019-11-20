@@ -18,7 +18,7 @@ namespace InheritAndPolymorphism.Entities
             Price = price;
         }
 
-        public string PriceTag()
+        public virtual string PriceTag()
         {
             StringBuilder sb = new StringBuilder();
             sb.Append(Name);
